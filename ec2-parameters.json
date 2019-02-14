@@ -1,11 +1,11 @@
 [
   {
     "ParameterKey": "VpcId",
-    "ParameterValue": "vpc-aac8f2c3"
+    "ParameterValue": "vpc-098f1361"
   },
   {
     "ParameterKey": "SubnetId",
-    "ParameterValue": "subnet-2dc83d45"
+    "ParameterValue": "subnet-71e94b0b"
   },
   {
     "ParameterKey": "InstanceName",
@@ -17,10 +17,10 @@
   },
   {
     "ParameterKey": "InstanceType",
-    "ParameterValue": "t2.large"
+    "ParameterValue": "t2.micro"
   },
   {
     "ParameterKey": "KeyName",
-    "ParameterValue": "key-name"
+    "ParameterValue": "iOmega.pem"
   }
 ]
