@@ -17,7 +17,7 @@ Parameters:
   InstanceType:
     Description: EC2 instance type
     Type: String
-    Default: t2.micro
+    Default: t2.medium
     AllowedValues:
     - t2.nano
     - t2.micro
@@ -46,7 +46,7 @@ Parameters:
     ConstraintDescription: must be a valid EC2 instance type.
   KeyName:
     Description: The EC2 Key Pair to allow SSH access to the instances
-    Type: AWS::EC2::KeyPair::iOmega.pem
+    Type: AWS::EC2::KeyPair::KeyName
     ConstraintDescription: must be the name of an existing EC2 KeyPair.
 Mappings:
   AMI2RegionMap:
